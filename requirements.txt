@@ -1,0 +1,23 @@
+# Women Safety Analytics MVP — Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Computer Vision
+opencv-python>=4.8.0,<5.0.0
+opencv-contrib-python>=4.8.0,<5.0.0
+numpy>=1.24.0
+
+# Person Detection (YOLO11n) — also pulls in torch & torchvision
+ultralytics>=8.2.0
+
+# Pose / Hand Landmark Detection
+mediapipe==0.10.35
+
+# Face Analysis + Gender Classification (replaces old Caffe model)
+insightface>=0.7.0
+onnxruntime>=1.16.0
+
+# Supabase Database Client
+supabase>=2.0.0
+
+# Environment Variable Loading
+python-dotenv>=1.0.0
